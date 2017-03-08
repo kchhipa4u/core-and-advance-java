@@ -11,4 +11,9 @@ public class SubClass extends SuperClass {
 	public int method1() {
 		return 0;
 	}*/
+	
+	@Override
+	public String method1() {
+		return "Kamlesh";
+	}
 }

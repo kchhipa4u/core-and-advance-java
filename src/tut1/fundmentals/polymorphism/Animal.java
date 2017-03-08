@@ -9,7 +9,7 @@ package tut1.fundmentals.polymorphism;
  * 3. Number of Parameters :- Same number of parameters
  * 4. Access Modifier Rule :- Child class method modifier must have more visibility than Parent class.
  * 5. However method signature must be same but there is an exception here that we can change return type in case of 
- *    covariant type (Parent or Child)
+ *    covariant type (Parent or Child). This concept introduced in java from 1.5 onwards.
  * 6. It supports runtime binding
  * 7. Final method can't be overridden
  * 8. Overriding is not possible in same class while overloading is possible in same class.
