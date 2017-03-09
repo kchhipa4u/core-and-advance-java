@@ -15,7 +15,7 @@ public class CustomImmutableClassTest {
 	      
 	       String localName= new String("Kanhaiya"); //local
 	      
-	        Map<Integer, String> localMap = new HashMap<Integer,String>(); //local
+	        HashMap<Integer, String> localMap = new HashMap<Integer,String>(); //local
 	        localMap.put(11, "audi");
 	      
 	        CustomImmutableClass immutableClass = new CustomImmutableClass(localId, localName, localMap);

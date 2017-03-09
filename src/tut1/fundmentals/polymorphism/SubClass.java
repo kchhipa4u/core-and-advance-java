@@ -16,4 +16,13 @@ public class SubClass extends SuperClass {
 	public String method1() {
 		return "Kamlesh";
 	}
+	
+	public static String staticMethod(){
+		return "I am sub class static method";
+	}
+	
+	public String method2()
+	{
+		return "I am method2";
+	}
 }

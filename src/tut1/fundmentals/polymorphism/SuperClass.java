@@ -15,5 +15,9 @@ public class SuperClass {
 	public SuperClass myMethod(){
 		return new SuperClass();
 	}
+	
+	public static String staticMethod(){
+		return "I am super class static method";
+	}
 
 }
